@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 import pandas as pd
 # from datetime import
 from plotly.offline import plot
@@ -8,7 +10,7 @@ import plotly.graph_objs.layout as go
 data = pd.read_excel('ele.xlsx')
 
 # Magdagdag ng isa kada buwan.
-haba = 117
+haba = 119
 
 # Kunin lamang ang mga kakailanganing data.
 data = data[:haba]
